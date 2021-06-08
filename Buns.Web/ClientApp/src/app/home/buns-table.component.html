@@ -1,0 +1,26 @@
+<h1 id="tableLabel">Цена на булочки</h1>
+
+<p *ngIf="!buns"><em>Loading...</em></p>
+
+<table class='table table-striped' aria-labelledby="tableLabel" *ngIf="buns">
+  <thead>
+  <tr>
+    <th>Id</th>
+    <th>Тип булочки</th>
+    <th>Начальная цена</th>
+    <th>Текущая цена</th>
+    <th>Следующая цена</th>
+    <th>Обновится:</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr *ngFor="let bun of buns">
+    <td>{{ bun.id }}</td>
+    <td>{{ bun.typeName }}</td>
+    <td>{{ bun.startPrice }}</td>
+    <td>{{ bun.currentPrice }}</td>
+    <td>{{ bun.nextPrice }}</td>
+    <td>{{ moment(bun.nextPriceChangeTime).format('LLL') }}</td>
+  </tr>
+  </tbody>
+</table>

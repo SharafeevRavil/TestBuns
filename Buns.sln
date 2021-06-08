@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Buns.Web", "Buns.Web\Buns.Web.csproj", "{9546E19C-040E-46D2-8D92-E85CC3D47853}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Buns.Data", "Buns.Data\Buns.Data.csproj", "{49205E92-30EC-4E0A-9170-03B7E02F5059}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Buns.Domain", "Buns.Domain\Buns.Domain.csproj", "{257B2DCB-A4B1-496B-B060-5BDFC53FEB6E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9546E19C-040E-46D2-8D92-E85CC3D47853}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9546E19C-040E-46D2-8D92-E85CC3D47853}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9546E19C-040E-46D2-8D92-E85CC3D47853}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9546E19C-040E-46D2-8D92-E85CC3D47853}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49205E92-30EC-4E0A-9170-03B7E02F5059}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49205E92-30EC-4E0A-9170-03B7E02F5059}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49205E92-30EC-4E0A-9170-03B7E02F5059}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49205E92-30EC-4E0A-9170-03B7E02F5059}.Release|Any CPU.Build.0 = Release|Any CPU
+		{257B2DCB-A4B1-496B-B060-5BDFC53FEB6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{257B2DCB-A4B1-496B-B060-5BDFC53FEB6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{257B2DCB-A4B1-496B-B060-5BDFC53FEB6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{257B2DCB-A4B1-496B-B060-5BDFC53FEB6E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
